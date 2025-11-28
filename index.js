@@ -86,7 +86,7 @@ async function start(file) {
     console.log(chalk.yellow(`Ditemukan ${files.length} File Di Folder Plugins`));
 
     try {
-      const { default: baileys } = await import('@adiwajshing/baileys');
+      const { default: baileys } = await import('wileys');
       const version = (await baileys.fetchLatestBaileysVersion()).version;
       console.log(chalk.yellow(`Library Baileys Versi ${version} Telah Terinstall`));
     } catch (e) {

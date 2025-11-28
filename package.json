@@ -22,7 +22,7 @@
   ],
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "@adiwajshing/baileys": "npm:@yupra/baileys",
+    "wileys": "latest",
     "@bochilteam/scraper": "^5.0.1",
     "@google/genai": "^1.11.0",
     "@vitalets/google-translate-api": "^8.0.0",

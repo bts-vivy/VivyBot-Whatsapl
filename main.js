@@ -50,7 +50,7 @@ const {
     jidDecode,
     PHONENUMBER_MCC,
     fetchLatestBaileysVersion,
-    } = await import('@adiwajshing/baileys') 
+    } = await import('wileys') 
 import readline from 'readline'
 const { CONNECTING } = ws
 const { chain } = lodash
